@@ -1,0 +1,15 @@
+### get all coba
+GET http://localhost:3000/coba
+
+### create coba
+POST http://localhost:3000/coba
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 30
+}
+
+### get all cat
+GET http://localhost:3000/coba/cat
+

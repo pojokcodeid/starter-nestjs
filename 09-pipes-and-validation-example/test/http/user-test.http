@@ -1,0 +1,16 @@
+### create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{ 
+    "username": "jo", 
+    "email": "john@example.com", 
+    "password": "secret123", 
+    "role": "user" 
+}
+
+### get user by id with wrong type
+GET http://localhost:3000/users/abc
+
+### get user by id with wrong number
+GET http://localhost:3000/users/1

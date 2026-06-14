@@ -1,0 +1,32 @@
+### get root
+GET http://localhost:3000
+
+### get all cats
+GET http://localhost:3000/cats
+
+### create cat
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Maine Coon",
+    "age": 20,
+    "breed": "Domestic"
+}
+
+### get cat
+GET http://localhost:3000/cats/2
+
+### update cat
+PUT http://localhost:3000/cats/2
+Content-Type: application/json
+
+{
+    "name": "Maine Coon",
+    "age": 25,
+    "breed": "Domestic"
+}
+
+### delete cat
+DELETE http://localhost:3000/cats/2

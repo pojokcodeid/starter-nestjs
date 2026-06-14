@@ -1,0 +1,8 @@
+### helloworld
+GET http://localhost:3000/
+
+### get users
+GET http://localhost:3000/users
+
+### get databse connection
+GET http://localhost:3000/users/connection

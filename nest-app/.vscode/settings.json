@@ -1,0 +1,19 @@
+{
+  "triggerTaskOnSave.tasks": {
+    "delete_dot_files": [
+      "**/*.ts",
+      "**/*.json",
+      "**/*.mjs",
+      "**/*.js",
+      "**/*.css",
+      "**/*.html",
+      "**/*.scss",
+      "**/*.less",
+      "**/*.sass",
+      "**/*.md"
+    ]
+  },
+  "triggerTaskOnSave.restart": true,
+  "triggerTaskOnSave.showStatusBarToggle": true,
+  "triggerTaskOnSave.showNotifications": false
+}

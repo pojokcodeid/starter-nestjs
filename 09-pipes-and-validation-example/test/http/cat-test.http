@@ -1,0 +1,31 @@
+### GET /cats
+GET http://localhost:3000/cats?activeOnly=true&page=1
+### GET /cats default
+GET http://localhost:3000/cats?page=1
+
+### create cat 
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+    "name": "Tom",
+    "age": 3,
+    "breed": "Tabby"
+}
+
+### get one 
+GET http://localhost:3000/cats/as
+
+### find by uuid
+GET http://localhost:3000/cats/uuid/550e8400-e29b-41d4-a716-446655440000-
+
+### update degan zod validation
+PUT http://localhost:3000/cats/1
+Content-Type: application/json
+
+{
+    "name": "Tom Jr",
+    "age": 5,
+    "breed": "Tabby"
+}
+
